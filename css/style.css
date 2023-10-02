@@ -23,11 +23,14 @@
   background-color: #add8e6;
   height: 5.3125rem;
 }
+.debug nav {
+  height: 3.125rem;
+}
 .debug .logo,
 .debug .link,
 .debug .login {
   background-color: #daa520;
-  height: 3.125rem;
+
   border: 2px black dotted;
 }
 .debug .header-bottom {
@@ -53,19 +56,24 @@
 .debug .grey {
   background-color: #d3d3d3;
 }
+.debug .block {
+  height: 32.5rem;
+}
 .debug .blue {
   background-color: #1e90ff;
-  height: 32.5rem;
+
   border: 2px black dotted;
 }
 .debug .light-pink {
   background-color: #ffc0cb;
-  height: 32.5rem;
+
   border: 2px black dotted;
+}
+.debug .big-block {
+  height: 58.75rem;
 }
 .debug .green {
   background-color: #228b22;
-  height: 58.75rem;
   border: 2px black dotted;
 }
 /* 
@@ -81,20 +89,21 @@
   background-color: #23272a;
   height: 7.1875rem;
 }
+.debug .fblock1 {
+  height: 37.5rem;
+}
 .debug .salmon {
   background-color: #f08080;
-  height: 37.5rem;
   border: 2px black dotted;
 }
 .debug .turchese {
   background-color: #20b2aa;
-  height: 37.5rem;
   border: 2px white dotted;
 }
 .debug .column {
   border: 2px white dotted;
 }
-.debug .verde-acqua {
+.debug .fblock2 {
   background-color: #7fffd4;
   height: 5rem;
 }
@@ -124,12 +133,17 @@
 .container {
   margin: 0 auto;
   width: 78.125rem;
-  display: flex;
 }
 .reverse {
   flex-direction: row-reverse;
 }
-
+.block,
+.big-block,
+.fblock1,
+.fblock2,
+nav {
+  display: flex;
+}
 /*
 ---------
 !HEADER
@@ -216,8 +230,7 @@ footer .footer-top {
 footer .footer-bottom {
   padding-top: 1.875rem;
 }
-.footer-bottom .verde-acqua {
-  display: flex;
+.footer-bottom .fblock2 {
   align-items: center;
   justify-content: space-between;
 }
