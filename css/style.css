@@ -10,10 +10,15 @@
 }
 
 /* 
-  ---------
-  !DEBUG
-  ---------
+---------
+!DEBUG
+---------
 */
+/* 
+-------
+?HEADER-DEBUG
+-------
+ */
 .debug .header-top {
   background-color: #add8e6;
   height: 5.3125rem;
@@ -33,33 +38,57 @@
   height: 25.9375rem;
   border: 2px black dotted;
 }
-/*
-  ------------
-  !TYPOGRAPHY
-  ------------
-  */
+/* 
+-------
+?MAIN-DEBUG
+-------
+*/
+.debug section {
+  height: 39.6875rem;
+}
+.debug .grey {
+  background-color: #d3d3d3;
+}
+.debug .blue {
+  background-color: #1e90ff;
+  height: 32.5rem;
+  border: 2px black dotted;
+}
+.debug .light-pink {
+  background-color: #ffc0cb;
+  height: 32.5rem;
+  border: 2px black dotted;
+}
 
 /*
-  ----------
-  !PALETTE
-  ----------
+------------
+!TYPOGRAPHY
+------------
 */
 
 /*
-  ---------
-  !COMMON
-  ---------
+----------
+!PALETTE
+----------
+*/
+
+/*
+---------
+!COMMON
+---------
 */
 .container {
   margin: 0 auto;
   width: 78.125rem;
   display: flex;
 }
-
+.reverse {
+  flex-direction: row-reverse;
+}
 /*
-  ---------
-  !HEADER
-  ---------
+---------
+!HEADER
+---------
 */
 header .header-top {
   display: flex;
@@ -82,13 +111,23 @@ header .header-bottom {
   width: 59.0625rem;
 }
 /*
-  -------
-  !MAIN
-  -------
+-------
+!MAIN
+-------
 */
+main section {
+  display: flex;
+  align-items: center;
+}
+main .blue {
+  flex-grow: 1.5;
+}
+main .light-pink {
+  flex-grow: 1;
+}
 
 /*
-  ---------
-  !FOOTER 
-  ---------
+---------
+!FOOTER 
+---------
 */
