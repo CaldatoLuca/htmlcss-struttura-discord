@@ -73,9 +73,13 @@
 ?FOOTER-DEBUG
 -------
 */
-.debug footer {
+.debug .footer-top {
   background-color: #23272a;
-  height: 48.125rem;
+  height: 41.25rem;
+}
+.debug .footer-bottom {
+  background-color: #23272a;
+  height: 7.1875rem;
 }
 .debug .salmon {
   background-color: #f08080;
@@ -90,6 +94,15 @@
 .debug .column {
   height: 100%;
   border: 2px white dotted;
+}
+.debug .verde-acqua {
+  background-color: #7fffd4;
+  height: 5rem;
+}
+.debug .button {
+  background-color: #ffb6c1;
+  border: 2px dotted black;
+  height: 2.1875rem;
 }
 /*
 ------------
@@ -176,4 +189,15 @@ footer .footer-top {
 }
 .footer-top .turchese .column {
   width: calc(100% / 4);
+}
+footer .footer-bottom {
+  padding-top: 1.875rem;
+}
+.footer-bottom .verde-acqua {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-bottom .button {
+  width: 4.6875rem;
 }
