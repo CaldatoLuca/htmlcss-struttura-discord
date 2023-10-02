@@ -32,6 +32,7 @@
 }
 .debug .header-bottom {
   height: 32.5rem;
+  background-color: #00008b;
 }
 .debug .pink {
   background-color: #ee82ee;
@@ -102,7 +103,6 @@ header .header-top {
   flex-grow: 3;
 }
 header .header-bottom {
-  background-color: #00008b;
   display: flex;
   justify-content: center;
   align-items: center;
