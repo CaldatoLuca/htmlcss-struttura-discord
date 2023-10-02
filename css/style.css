@@ -92,7 +92,6 @@
   border: 2px white dotted;
 }
 .debug .column {
-  height: 100%;
   border: 2px white dotted;
 }
 .debug .verde-acqua {
@@ -104,6 +103,7 @@
   border: 2px dotted black;
   height: 2.1875rem;
 }
+
 /*
 ------------
 !TYPOGRAPHY
@@ -129,9 +129,15 @@
 .reverse {
   flex-direction: row-reverse;
 }
+
 /*
 ---------
 !HEADER
+---------
+*/
+/*
+---------
+?HEADER-TOP
 ---------
 */
 header .header-top {
@@ -145,6 +151,11 @@ header .header-top {
 .header-top .link {
   flex-grow: 3;
 }
+/*
+---------
+?HEADER-BOTTOM
+---------
+*/
 header .header-bottom {
   display: flex;
   justify-content: center;
@@ -153,6 +164,7 @@ header .header-bottom {
 .header-bottom .pink {
   width: 59.0625rem;
 }
+
 /*
 -------
 !MAIN
@@ -171,9 +183,15 @@ main .light-pink {
 main .green {
   width: 100%;
 }
+
 /*
 ---------
 !FOOTER 
+---------
+*/
+/*
+---------
+?FOOTER-TOP
 ---------
 */
 footer .footer-top {
@@ -190,6 +208,11 @@ footer .footer-top {
 .footer-top .turchese .column {
   width: calc(100% / 4);
 }
+/*
+---------
+?FOOTER-BOTTOM
+---------
+*/
 footer .footer-bottom {
   padding-top: 1.875rem;
 }
