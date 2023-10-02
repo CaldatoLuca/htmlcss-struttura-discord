@@ -13,8 +13,18 @@
   ---------
   !DEBUG
   ---------
-  */
-
+*/
+.debug .header-top {
+  background-color: #add8e6;
+  height: 5.3125rem;
+}
+.debug .logo,
+.debug .link,
+.debug .login {
+  background-color: #daa520;
+  height: 3.125rem;
+  border: 1px black dotted;
+}
 /*
   ------------
   !TYPOGRAPHY
@@ -25,33 +35,43 @@
   ----------
   !PALETTE
   ----------
-  */
+*/
 
 /*
   ---------
   !COMMON
   ---------
-  */
-.center {
+*/
+.container {
+  margin: 0 auto;
+  width: 78.125rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /*
   ---------
   !HEADER
   ---------
-  */
-
+*/
+header .header-top {
+  display: flex;
+  align-items: center;
+}
+.header-top .logo,
+.header-top .login {
+  flex-grow: 1;
+}
+.header-top .link {
+  flex-grow: 3;
+}
 /*
   -------
   !MAIN
   -------
-  */
+*/
 
 /*
   ---------
   !FOOTER 
   ---------
-  */
+*/
