@@ -47,6 +47,9 @@
 .debug section {
   height: 39.6875rem;
 }
+.debug .big-section {
+  height: 65rem;
+}
 .debug .grey {
   background-color: #d3d3d3;
 }
@@ -58,6 +61,11 @@
 .debug .light-pink {
   background-color: #ffc0cb;
   height: 32.5rem;
+  border: 2px black dotted;
+}
+.debug .green {
+  background-color: #228b22;
+  height: 58.75rem;
   border: 2px black dotted;
 }
 
@@ -125,7 +133,9 @@ main .blue {
 main .light-pink {
   flex-grow: 1;
 }
-
+main .green {
+  width: 100%;
+}
 /*
 ---------
 !FOOTER 
